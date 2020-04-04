@@ -1,0 +1,39 @@
+
+.page{
+  position: relative;
+  min-height: 100%;
+}
+.content{
+  padding-bottom: 5px;
+  margin-top: 61px;
+}
+.coffee-footer {
+  padding: 2.5rem 0;
+  color: #999;
+  text-align: center;
+  background-color: #000000;
+  border-top: .05rem solid #e5e5e5;
+}
+
+.coffee-footer p:last-child {
+  margin-bottom: 0;
+}
+
+.text-decor{
+  font-family: "Segoe Print", Courier, monospace;
+}
+
+.icon img{
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.icon img:hover {
+  background: rgba(55, 57, 60, 0.94);
+  border-radius:50%;
+}
+
+.text-footer p{
+  color: #fff;
+  text-align: center;
+}
