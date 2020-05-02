@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
-  constructor() { }
+  isCollapsed = true;
+
+  constructor() {
+  }
+
+  toggleCollapse() {
+    this.isCollapsed = !this.isCollapsed;
+  }
 
   ngOnInit(): void {
   }
-
 }

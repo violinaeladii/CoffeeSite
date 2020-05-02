@@ -1,4 +1,126 @@
 
+<div class="jumbotron-fluid p-4 p-md-5 text-white  ">
+
+  <div class="row">
+
+    <div class="col-md-5">
+      <img src="https://images.wallpaperscraft.com/image/balls_shape_sphere_121376_1280x1280.jpg" alt="Chicago"
+           class="img-fluid ">
+    </div>
+
+    <div class="col-md-7 ">
+      <h4 class=" text-decor text-center "> Echipa  TimeCoffee &hearts; &hearts; &hearts; </h4>
+      <p class=" text-decor text-center"> Doar împreună putem obține gustul perfect a unei cafele, care
+        îți va topi inima și îți va oferi o senzație de neuitat. Aici puteți să-i cunoșteți pe echipa de la TimeCoffe care  îți va oferi
+        tot pentru ca TU să fii satisfăcut prin gust...</p>
+      <p  class="text-muted text-decor2 "> Continue reading...</p>
+    </div>
+  </div>
+</div>
+
+<!-- Marketing messaging and featurettes
+================================================== -->
+<!-- Wrap the rest of the page in another container to center all the content. -->
+<main role="main" >
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="https://barista.qodeinteractive.com/wp-content/uploads/2017/01/Team-img-1.jpg" alt="Chicago"
+             class="rounded-circle img-fluid">
+        <h2>FEDERICO HICKMAN</h2>
+        <p>Salut, sunt Federico și sunt un super pasionat de cafeaua de specialitate.
+          Urmărește-mi aventurile senzorialte în lumea cafelei de specialitate, pe TimeCoffee.com.</p>
+        <button *ngIf="isCollapsed" (click)="toggleCollapse()"> View details &raquo; </button>
+        <button *ngIf="!isCollapsed" (click)="toggleCollapse()"> Hide &raquo; </button>
+        <div *ngIf="!isCollapsed">
+          <p>
+            nr.tel:060708453
+          </p>
+        </div>
+
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="https://barista.qodeinteractive.com/wp-content/uploads/2017/01/Team-img-2.jpg" alt="Chicago"
+             class="rounded-circle img-fluid">
+        <h2> DAVID GWILYM</h2>
+        <p> Salut, sunt David și noi depunem efort pentru a informa potențialii cafegii și ne dorim
+          ca fiecare să-și poată savura aroma îmbietoare a cafelei în fiecare zi. </p>
+        <button *ngIf="isCollapsed" (click)="toggleCollapse()"> View details &raquo; </button>
+        <button *ngIf="!isCollapsed" (click)="toggleCollapse()"> Hide &raquo; </button>
+        <div *ngIf="!isCollapsed">
+          <p>
+            nr.tel:070846573
+          </p>
+        </div>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="https://barista.qodeinteractive.com/wp-content/uploads/2017/01/Team-img-3.jpg" alt="Chicago"
+             class="rounded-circle img-fluid">
+        <h2>ALEJANDRO MENDEZ</h2>
+        <p>Salut, sunt Alejandro aici puteți testa oricare espressor, degusta orice tip de cafea și oferi orice întrebare legată
+          de lucrul espressorului, prepararea cafelei sau funcționării espressorului. </p>
+        <button *ngIf="isCollapsed" (click)="toggleCollapse()"> View details &raquo; </button>
+        <button *ngIf="!isCollapsed" (click)="toggleCollapse()"> Hide &raquo; </button>
+        <div *ngIf="!isCollapsed">
+          <p>
+            nr.tel:060746211
+          </p>
+        </div>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+  </div>
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="https://barista.qodeinteractive.com/wp-content/uploads/2017/01/Team-img-4.jpg" alt="Chicago"
+             class="rounded-circle img-fluid">
+        <h2>JANE DOE</h2>
+        <p>Salut, sunt Jane și incerc să deschid orizonturile papilelor gustative ale pasionatilor de cafea spre cafeaua de specialitate. </p>
+        <button *ngIf="isCollapsed" (click)="toggleCollapse()"> View details &raquo; </button>
+        <button *ngIf="!isCollapsed" (click)="toggleCollapse()"> Hide &raquo; </button>
+        <div *ngIf="!isCollapsed">
+          <p>
+            nr.tel:070835674
+          </p>
+        </div>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="https://barista.qodeinteractive.com/wp-content/uploads/2017/01/Team-img-5.jpg" alt="Chicago"
+             class="rounded-circle img-fluid">
+        <h2>NICOLI VELINI </h2>
+        <p>Salut, sunt Nicoli tot timpul sunt în căutarea de noi prăjitorii de cafea artizanale, să încerc noi varietăți de cafea, prelucrate diferit și prăjite diferit,
+          pentru a descoperii noi gusturi și arome extraordinare pe care le dezvoltă cafeaua.</p>
+        <button *ngIf="isCollapsed" (click)="toggleCollapse()"> View details &raquo; </button>
+        <button *ngIf="!isCollapsed" (click)="toggleCollapse()"> Hide &raquo; </button>
+        <div *ngIf="!isCollapsed">
+          <p>
+            nr.tel:060735462
+          </p>
+        </div>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="https://barista.qodeinteractive.com/wp-content/uploads/2017/01/Team-img-6.jpg" alt="Chicago"
+             class="rounded-circle img-fluid">
+        <h2>EVELIN ROSE</h2>
+        <p>Salut, sunt Evelin și grija față de client și espresor este pentru noi  o posibilitate de a studia, perfecționa și demonstra
+          ca ne pasă și ne dorim ca tu sa fii propriul tău barista la tine acasă.</p>
+        <button *ngIf="isCollapsed" (click)="toggleCollapse()"> View details &raquo; </button>
+        <button *ngIf="!isCollapsed" (click)="toggleCollapse()"> Hide &raquo; </button>
+        <div *ngIf="!isCollapsed">
+          <p>
+            nr.tel:060784253
+          </p>
+        </div>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+  </div>
+</main>
+
 
 
 
