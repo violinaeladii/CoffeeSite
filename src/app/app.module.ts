@@ -14,6 +14,8 @@ import {HttpClientModule} from '@angular/common/http';
 import {LoginComponent} from './login/login.component';
 import {RegisterComponent} from './register/register.component';
 import {DashboardComponent} from './dashboard/dashboard.component';
+import {ProductsComponent } from './products/products.component';
+
 
 @NgModule({
   declarations: [
@@ -26,6 +28,7 @@ import {DashboardComponent} from './dashboard/dashboard.component';
     LoginComponent,
     RegisterComponent,
     DashboardComponent,
+    ProductsComponent,
   ],
   imports: [
     BrowserModule,

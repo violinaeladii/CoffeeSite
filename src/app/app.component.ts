@@ -10,6 +10,7 @@ import {ApiService} from './api.service';
 export class AppComponent {
   loginbtn: boolean;
   logoutbtn: boolean;
+  title: 'CoffeSite';
 
   constructor(private dataService: ApiService) {
     dataService.getLoggedInName.subscribe(name => this.changeName(name));
